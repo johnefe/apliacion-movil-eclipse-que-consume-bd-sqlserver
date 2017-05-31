@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtnombrecli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/lblelimnombre"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblElimNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtnombrecli"
+        android:layout_below="@+id/txtnombrecli"
+        android:layout_marginTop="18dp"
+        android:text="@string/txtvacio"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnElimeliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblElimNombre"
+        android:layout_centerVertical="true"
+        android:text="@string/btnEeliminar" />
+
+    <Button
+        android:id="@+id/btnEregresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnElimeliminar"
+        android:layout_alignBottom="@+id/btnElimeliminar"
+        android:layout_marginLeft="48dp"
+        android:layout_toRightOf="@+id/btnElimeliminar"
+        android:text="@string/btnEregresar" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/lblElimNombre"
+        android:text="@string/lbleliminartitulo"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

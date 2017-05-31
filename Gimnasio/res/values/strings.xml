@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gimnasio</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lblTitulo">Sportbody</string>
+    <string name="btnEntrarClientes">VER CLIENTES</string>
+    <string name="lblListadoClientes">LISTADO CLIENTES</string>
+    <string name="btnRegresarClientes">REGRESAR</string>
+    <string name="lblTituloInserta">NUEVO CLIENTE</string>
+    <string name="label">Ciudad</string>
+    <string name="label2">Sede</string>
+    <string name="lbl3">Nombre</string>
+    <string name="lbl4">Teléfono</string>
+    <string name="lbl5">Dirección</string>
+    <string name="btnRegistrar">REGISTRAR</string>
+    <string name="btnRegresaInsert">REGRESAR</string>
+    <string name="btnRegClientes">REGISTRAR CLIENTES</string>
+    <string name="lblActualizar">ACTUALIZAR CLIENTE</string>
+    <string name="lblAciudad">Ciudad</string>
+    <string name="txtAciudad">txtAciudad</string>
+    <string name="lblAsede"></string>
+    <string name="lblAcsede">Sede</string>
+    <string name="txtAcnombre"></string>
+    <string name="lblActelefono">Teléfono</string>
+    <string name="lblAcnombre">Nombre</string>
+    <string name="lblAcdireccion">Dirección</string>
+    <string name="btnAcactualizar">ACTUALIZAR</string>
+    <string name="btnAcregresar">REGRESAR</string>
+    <string name="lbleliminartitulo">¿Estas seguro que deseas eliminar?</string>
+    <string name="lblelimnombre">Nombre</string>
+    <string name="txtvacio"></string>
+    <string name="btnEeliminar">ELIMINAR</string>
+    <string name="btnEregresar">CANCELAR</string>
+    <string name="lblTnombre">Cliente</string>
+    <string name="btnTactualizar">ACTUALIZAR</string>
+    <string name="btlTeliminar">ELIMINAR</string>
+    <string name="btnback">&lt;--</string>
+    <string name="lblTcliente"></string>
+
+</resources>

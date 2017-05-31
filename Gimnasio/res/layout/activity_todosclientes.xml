@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="@string/lblListadoClientes"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <GridView
+        android:id="@+id/gridViewClientes"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:numColumns="4" >
+    </GridView>
+
+    <TextView
+        android:id="@+id/lblTcliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtnombrecli"
+        android:layout_below="@+id/txtnombrecli"
+        android:text="@string/txtvacio"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnRegresamenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/btnback" />
+
+    <Button
+        android:id="@+id/btnTactualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/btnTactualizar" />
+
+    <Button
+        android:id="@+id/btnTeliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnTactualizar"
+        android:text="@string/btlTeliminar" />
+
+    <TextView
+        android:id="@+id/txtnombrecli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gridViewClientes"
+        android:text="@string/lblTnombre"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblTclientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblTcliente"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginRight="27dp"
+        android:text="@string/lblTcliente"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
